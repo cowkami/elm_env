@@ -5,4 +5,4 @@ RUN wget -O - 'https://github.com/elm/compiler/releases/download/0.19.1/binary-f
 RUN chmod +x /usr/local/bin/elm
 RUN apk add --no-cache nodejs
 
-ENTRYPOINT ["elm"]
+CMD ["elm"]
